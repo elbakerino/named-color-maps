@@ -17,7 +17,7 @@
         "bootstrap": "lerna bootstrap",
         "hoist": "lerna bootstrap --hoist",
         "dtsgen": "lerna run dtsgen",
-        "test": "jest -c=\"packages/jest.config.js\"",
+        "test": "jest -c=\"packages/jest.config.js\" --passWithNoTests",
         "tdd": "npm test -- --watch --watchman --coverage=false",
         "release": "lerna publish from-package --contents build --no-git-reset"
     },
