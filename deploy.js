@@ -17,8 +17,8 @@ const rootDir = __dirname
 const tmpDir = path.resolve(__dirname, 'tmp')
 
 const actionTargets = {
-    'simple-gestures': deployApp(
-        'simple-gestures', 'php',
+    'named-color-maps': deployApp(
+        'named-color-maps', 'php',
         () => packIntoTmp(path.join(rootDir, 'dist/demo'), tmpDir), [
             'host_id=clients-shared',
         ],
@@ -55,7 +55,7 @@ const deployments = [
     prepareDeployment,
     authDeployer,
     // the actual `apps deploy` actions >>>
-    ...actionTargets['simple-gestures'].deploy,
+    ...actionTargets['named-color-maps'].deploy,
     // <<< the actual `apps deploy` actions
     apiDeploy(['verbose=1']),
 ]

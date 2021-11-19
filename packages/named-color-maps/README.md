@@ -1,8 +1,6 @@
-# React Simple Gestures
+# Named Color Maps
 
-Hook to listen for simple touch and/or mouse gestures on components.
-
-Checkout [Demo, Docs + Source](https://github.com/elbakerino/named-color-maps) on GitHub.
+...
 
 ## Versions
 
