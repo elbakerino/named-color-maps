@@ -28,8 +28,8 @@
         "react-dom": "^16.12"
     },
     "peerDependencies": {
-        "react": "^16.8 || ^17.0",
-        "@types/react": "^16.8.6 || ^17.0.0"
+        "@types/react": "^16.8.6 || ^17.0.0",
+        "react": "^16.8 || ^17.0"
     },
     "peerDependenciesMeta": {
         "@types/react": {
@@ -38,5 +38,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "ed87c73448b2cdf43b13b2beef229167bedfe64a"
 }

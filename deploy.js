@@ -91,7 +91,7 @@ const handler = {
         if(!AUTH0_ISSUER) {
             return Promise.reject('AUTH0_ISSUER must be set!')
         }
-        const isProd = GIT_BRANCH === 'main'
+        const isProd = GIT_BRANCH === 'master'
 
         return await runDeploy(
             deployments,

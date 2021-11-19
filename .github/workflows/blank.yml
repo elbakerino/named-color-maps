@@ -1,13 +1,13 @@
-name: Simple Gestures
+name: Named Color Maps
 
 env:
     DOCKER_BUILDKIT: 1
 
 on:
     push:
-        branches: [main]
+        branches: [master]
     pull_request:
-        branches: [main]
+        branches: [master]
     create:
         tags:
             - '[0-9]+.[0-9]+.[0-9]+*'
